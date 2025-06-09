@@ -15,9 +15,9 @@
 - **Motivo**: Los métodos de finalización de transacciones han sido simplificados
 
 ### 4. Actualización de datos XML
-- **Cambiado**: `payment.method` por `payment.icon` para el icono de Bizum
-- **Cambiado**: `payment_method_ids` por `payment_icon_ids` en el provider
-- **Motivo**: En Odoo 18 se usa payment.icon en lugar de payment.method para los iconos
+- **Corregido**: Mantenido el modelo `payment.method` para el método de pago Bizum (el modelo `payment.icon` no existe en Odoo 18)
+- **Añadido**: Campo `code` en el método de pago Bizum para mayor compatibilidad
+- **Motivo**: La estructura de payment.method se mantiene en Odoo 18
 
 ### 5. Archivos que NO requieren cambios
 - `controllers/main.py` - Compatible con Odoo 18
