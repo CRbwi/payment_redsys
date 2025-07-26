@@ -133,6 +133,7 @@ Contributors
    -  João Marques
 
 -  Isaac Gallart <igallart@puntsistemes.es>
+-  Juan de la cruz - Port a versión 18     
 -  `Acysos S.L. <https://www.acysos.com>`__:
 
    -  Ignacio Ibeas <ignacio@acysos.com>
