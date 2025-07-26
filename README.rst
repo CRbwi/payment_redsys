@@ -1,5 +1,5 @@
 =======================
-Pasarela de pago Redsys
+Mod de OCA Pasarela de pago Redsys
 =======================
 
 .. 
